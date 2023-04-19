@@ -31,6 +31,7 @@ from mi_clase import Miclase
 # print(Miclase.mi_metodo)
 #  Pa saber el tipo y el la ubicacion del objeto
 
+
 #Los str son inmutables
 # help(str.capatilize)
 # mensaje1="hola"
@@ -61,7 +62,9 @@ from mi_clase import Miclase
 # print(f"llaves:{llaves}")
 # print(f"valores:{valores}")
 
-# Metodo split
+
+
+#  Metodo split
 # cursos = "Java Python Angular Spring Excel"
 # lista_cursos = cursos.split()
 # print(f"LISTA CURSO:{lista_cursos}")
@@ -72,12 +75,49 @@ from mi_clase import Miclase
 # print(f"Lista curso:{lista_cursos}")
 # print(len(lista_cursos))
 
-# dar formato a un str
-nombre = "juan"
-edad = 20
-mensaje_con_formato = "Mi nombre es %s y tengo %s años"%(nombre,edad)
-print(mensaje_con_formato)
 
-persona =("Maria","Sanchez",5000.00)
-mensaje_con_formato = "Hola %s %s , tu sueldo es de %s"%(persona)
-print(mensaje_con_formato)
+
+# dar formato a un str
+
+# nombre = "juan"
+# edad = 20
+# mensaje_con_formato = "Mi nombre es %s y tengo %s años"%(nombre,edad)
+# print(mensaje_con_formato)
+#
+# persona =("Maria","Sanchez",5000.00)
+# mensaje_con_formato = "Hola %s %s , tu sueldo es de %s"%(persona)
+# print(mensaje_con_formato)
+#
+# nombre = "juan"
+# edad = 20
+# sueldo = 3000
+# mensaje_con_formato = "Nombre {} Edad {} Sueldo {}".format(nombre,edad,sueldo)
+#
+
+
+#  otra manera de hacerlo es asignando indices
+# mensaje_con_formato = "Nombre {0} Edad {1{ Sueldo{2}".format(nombre,edad,sueldo)
+# mensaje = "Nombre {n} edad{e} sueldo {s:.2f}",format(n=nombre,e=edad,s=sueldo)
+
+
+
+# aqui haremos uso de un diccionario para remplazar los valores
+# diccionario ={"nombre":"Ivan","edad":34,"sueldo":5000}
+# mensaje = 'Nombre {persona[nombre]} Edad:{persona[edad]} Sueldo:{persona[sueldo]}'.format(persona=diccionario)
+# print(mensaje)
+
+
+# metodo print
+# sep= representa lo que se colocara en la separacion
+# print(nombre,edad,sueldo,sep=", ")
+
+# multiplicando str (listas,tuplas,cadenas
+# resultado = 5 * "Hola"
+# print(f"Resultado:{resultado}")
+# # multiplicando tuplas
+# resultado = 5 * ("Hola",10)
+# print(f"Resltado:{resultado}")
+# # multiplicando listas
+# resultado = 10 *[0]
+# print(f"Resultado:{resultado}")
+
