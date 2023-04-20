@@ -14,5 +14,5 @@ def calculadora(a, b, operacion='sumar'):
     elif operacion == 'restar':
         print(f'Resultado restar: {restar(a, b)}')
 
-calculadora(434, 865, operacion='sumar')
+calculadora(2, 2, operacion='sumar')
 calculadora(400, 300, operacion='restar')

@@ -16,6 +16,6 @@ print(next(gen))
 # print(next(gen)) saltara error por ausencia de valores
 
 # Consumiendo los valores con un ciclo for
-gen=generador()
-for valor in generador():
-    print(f"Numero generado:{valor}")
+# gen=generador()
+# for valor in generador():
+#     print(f"Numero generado:{valor}")

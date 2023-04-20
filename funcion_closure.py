@@ -1,5 +1,5 @@
 # Funcion closure es una funcion que encapsula a otra, o se podria decir que es una funcion que define a otra
-# ademas la regresa, la funcion anidada puede acceder a las variables locales definifas
+# ademas la regresa, la funcion anidada puede acceder a las variables locales definidas
 # en la funcion principal o externa
 
 # Funcion principal
@@ -9,6 +9,7 @@
 #         return a + b
 #     # 2retornar la funcion}
 #     return sumar
+
 # Funcion principal
 def operacion(a,b):
     # 1.Definimos una funcion lambda anidada y la retornamos
