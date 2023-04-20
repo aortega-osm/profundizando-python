@@ -1,7 +1,7 @@
 import keyword
 print("Palabras reservadas")
-print(keyword.kwlist)
-
+# print(keyword.kwlist)
+print(keyword)
 # Ahora, un detalle importante es que estas palabras reservadas
 # no las podemos utilizar para definir variables
 # Tampoco para definir funciones.
